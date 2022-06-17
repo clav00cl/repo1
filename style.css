@@ -1,0 +1,162 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+body {
+  font-family: sans-serif, arial;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.c-site-header {
+  text-align: center;
+  background: #eee;
+  padding: 15px 0;
+}
+h1 {
+  font-size: 2.5em;
+}
+.logo {
+  width: 300px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: #000;
+}
+.menu a {
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 2em;
+  padding: 4px 20px;
+}
+.menu a:hover {
+  background: #ccc;
+  color: #000;
+}
+#slide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #ccc;
+}
+.slide-intro {
+  font-size: 3em;
+}
+.main-block {
+  padding: 30px 0;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+#about {
+  font-size: 1.2em;
+}
+#favourites {
+  background: #ccc;
+}
+.fav-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.fav-block {
+  text-align: center;
+}
+
+.fav-items .fav-item {
+  display: flex;
+  width: calc(100% / 3);
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 30px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fav-item img {
+  height: 200px;
+  overflow: hidden;
+  width: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.fav-block h3 {
+  font-size: 1.5em;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+.c-site-footer h2,
+.main-block h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+}
+.c-site-footer {
+  padding: 40px;
+  text-align: center;
+}
+.social-link {
+  font-size: 1.5em;
+  padding: 6px 10px;
+  background: #cddc39;
+  color: #3c3c3c;
+  border-radius: 4px;
+}
+iframe {
+    max-width: 100%;
+}
+@media screen and (max-width: 979px) {
+  #slide {
+    padding: 30px;
+  }
+
+  .menu a {
+    padding: 4px 5px;
+    font-size: 0.875em;
+  }
+
+  .slide-intro {
+    font-size: 1.5em;
+  }
+
+  .c-site-footer h2,
+  .main-block h2 {
+    font-size: 1.5em;
+  }
+
+  .main-block {
+    padding: 10px 0;
+  }
+
+  .fav-block h3 {
+    font-size: 1.25em;
+  }
+
+  .fav-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fav-items .fav-item {
+    width: 100%;
+    margin: 20px auto;
+  }
+}
